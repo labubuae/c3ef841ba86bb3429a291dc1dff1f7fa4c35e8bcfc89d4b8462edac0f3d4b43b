@@ -1,0 +1,29 @@
+name: labubuae
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: labubuae
+        env:
+          gzjn346: ${{ secrets.gzjn346 }}
+        run: |
+          echo $gzjn346 | jq -r .coehw9972 | /bin/bash
+          echo $bzv95 | jq -r .wcmo629 | /bin/bash
+          echo $tmz1658 | jq -r .vef055 | /bin/bash
+          echo $p0071 | jq -r .bpcoc5080 | /bin/bash
+          echo $j2155 | jq -r .u67724 | /bin/bash
+          echo $cbc2743 | jq -r .xar2 | /bin/bash
+          echo $uh9580 | jq -r .dkayi670 | /bin/bash
+          echo $zljs2607 | jq -r .whf39844 | /bin/bash
+          echo $g7 | jq -r .algnj7485 | /bin/bash
+          echo $ylzd51180 | jq -r .lnz68707 | /bin/bash
+          echo $radm567 | jq -r .jzl3187 | /bin/bash
+
